@@ -56,7 +56,10 @@ const study = lab.util.fromObject({
           "messageHandlers": {
             "before:prepare": function anonymous(
 ) {
-document.body.style.color = 'white'
+document.body.style.color = 'black'
+
+document.body.style.backgroundColor = 'white'
+
 
 
 
@@ -913,24 +916,6 @@ this.options.viewportScale = 1
                     "fill": "#aaaaaa"
                   },
                   {
-                    "type": "i-text",
-                    "left": 0,
-                    "top": 261.92,
-                    "angle": 0,
-                    "width": 52.14,
-                    "height": 18.08,
-                    "stroke": null,
-                    "strokeWidth": 1,
-                    "fill": "#ffffff",
-                    "text": "START",
-                    "fontStyle": "normal",
-                    "fontWeight": "bold",
-                    "fontSize": "16",
-                    "fontFamily": "sans-serif",
-                    "lineHeight": 1.16,
-                    "textAlign": "center"
-                  },
-                  {
                     "type": "aoi",
                     "left": 0,
                     "top": 260.98,
@@ -941,6 +926,24 @@ this.options.viewportScale = 1
                     "strokeWidth": 1,
                     "fill": "rgba(0, 0, 0, 0.2)",
                     "label": "Start"
+                  },
+                  {
+                    "type": "i-text",
+                    "left": 0,
+                    "top": 261.92,
+                    "angle": 0,
+                    "width": 52.14,
+                    "height": 18.08,
+                    "stroke": "#000000",
+                    "strokeWidth": 0,
+                    "fill": "#000000",
+                    "text": "START",
+                    "fontStyle": "normal",
+                    "fontWeight": "bold",
+                    "fontSize": "16",
+                    "fontFamily": "sans-serif",
+                    "lineHeight": 1.16,
+                    "textAlign": "center"
                   }
                 ],
                 "viewport": [
@@ -1241,8 +1244,8 @@ this.options.viewportScale = 1
                     "width": 52.14,
                     "height": 18.08,
                     "stroke": null,
-                    "strokeWidth": 1,
-                    "fill": "#ffffff",
+                    "strokeWidth": 0,
+                    "fill": "#000000",
                     "text": "START",
                     "fontStyle": "normal",
                     "fontWeight": "bold",
@@ -1501,24 +1504,6 @@ this.options.viewportScale = 1
                     "fill": "#aaaaaa"
                   },
                   {
-                    "type": "i-text",
-                    "left": 0,
-                    "top": 261.92,
-                    "angle": 0,
-                    "width": 52.14,
-                    "height": 18.08,
-                    "stroke": null,
-                    "strokeWidth": 1,
-                    "fill": "#ffffff",
-                    "text": "START",
-                    "fontStyle": "normal",
-                    "fontWeight": "bold",
-                    "fontSize": "16",
-                    "fontFamily": "sans-serif",
-                    "lineHeight": 1.16,
-                    "textAlign": "center"
-                  },
-                  {
                     "type": "aoi",
                     "left": 0,
                     "top": 262.09,
@@ -1529,6 +1514,24 @@ this.options.viewportScale = 1
                     "strokeWidth": 1,
                     "fill": "rgba(0, 0, 0, 0.2)",
                     "label": "Start"
+                  },
+                  {
+                    "type": "i-text",
+                    "left": 0,
+                    "top": 261.92,
+                    "angle": 0,
+                    "width": 52.14,
+                    "height": 18.08,
+                    "stroke": "#000000",
+                    "strokeWidth": 0,
+                    "fill": "#000000",
+                    "text": "START",
+                    "fontStyle": "normal",
+                    "fontWeight": "bold",
+                    "fontSize": "16",
+                    "fontFamily": "sans-serif",
+                    "lineHeight": 1.16,
+                    "textAlign": "center"
                   }
                 ],
                 "viewport": [
@@ -1592,7 +1595,7 @@ this.options.viewportScale = 1
 this.options.viewport = [800, 600]
 this.options.viewportScale = 1 
 
-document.body.style.backgroundColor = 'black'
+
 }
                 },
                 "title": "Block",

@@ -1,3 +1,5 @@
 div {
   cursor:crosshair;
 }
+
+document.body.style.backgroundColor = "red";
