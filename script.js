@@ -552,8 +552,9 @@ this.end()
           "messageHandlers": {
             "before:prepare": function anonymous(
 ) {
+this.options.viewport = [800, 600]
 this.options.viewportScale = 1
-this.options.devicePixelScaling = false
+
 }
           },
           "title": "Calibration Task Instructions"
@@ -564,22 +565,27 @@ this.options.devicePixelScaling = false
             {
               "Horizontal_Pos": "0",
               "Vertical_Pos": "0",
-              "": "Center"
+              "Cal_Dot": "Center"
             },
             {
               "Horizontal_Pos": "-300",
               "Vertical_Pos": "0",
-              "": "Left"
+              "Cal_Dot": "Left"
             },
             {
               "Horizontal_Pos": "0",
               "Vertical_Pos": "150",
-              "": "Up"
+              "Cal_Dot": "Up"
             },
             {
               "Horizontal_Pos": "0",
               "Vertical_Pos": "-150",
-              "": "Down"
+              "Cal_Dot": "Down"
+            },
+            {
+              "Horizontal_Pos": "300",
+              "Vertical_Pos": "0",
+              "Cal_Dot": "Right"
             }
           ],
           "sample": {
@@ -607,7 +613,13 @@ this.options.viewportScale = 1
               "": ""
             },
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.viewport = [800, 600]
+this.options.viewportScale = 1
+}
+            },
             "title": "Sequence",
             "plugins": [],
             "content": [
@@ -1468,7 +1480,6 @@ this.options.viewportScale = 1
           },
           "title": "Biased Loop",
           "plugins": [],
-          "indexParameter": "Iterations",
           "shuffleGroups": [],
           "template": {
             "type": "lab.flow.Sequence",
@@ -1508,8 +1519,8 @@ this.options.viewportScale = 1
                     "left": 0,
                     "top": 262.09,
                     "angle": 0,
-                    "width": "75.5",
-                    "height": "38",
+                    "width": 75.5,
+                    "height": 38,
                     "stroke": null,
                     "strokeWidth": 1,
                     "fill": "rgba(0, 0, 0, 0.2)",
