@@ -1696,18 +1696,18 @@ this.options.viewportScale = 1
             {
               "required": false,
               "type": "checkbox",
-              "label": "How many times do you think the block jumped to the Left during the experiment?",
+              "label": "In which direction did the block move more often during the experiment?",
               "options": [
                 {
-                  "label": "More than 50% of the time",
+                  "label": "The block moved to the left more often",
                   "coding": "1"
                 },
                 {
-                  "label": "50% of the time",
+                  "label": "The block moved to the right more often",
                   "coding": "2"
                 },
                 {
-                  "label": "Less than 50% of the time",
+                  "label": "The block moved to the left as often as it moved to the right",
                   "coding": "3"
                 },
                 {
@@ -1715,7 +1715,7 @@ this.options.viewportScale = 1
                   "coding": "4"
                 }
               ],
-              "name": "how-many-times-do-you-think-the-block-jumped-to-the-left-during-the-experiment"
+              "name": "in-which-direction-did-the-block-move-more-often-during-the-experiment"
             }
           ],
           "scrollTop": true,
