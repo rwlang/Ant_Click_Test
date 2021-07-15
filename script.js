@@ -1046,7 +1046,7 @@ this.options.viewportScale = 1
 
 }
                 },
-                "title": "Block",
+                "title": "Block_P",
                 "plugins": [
                   {
                     "type": "mousetrap",
@@ -1098,7 +1098,7 @@ this.options.viewport = [800, 600]
 this.options.viewportScale = 1 
 }
                 },
-                "title": "Displaced Block",
+                "title": "Displaced Block_P",
                 "timeout": "1000",
                 "plugins": [
                   {
@@ -1343,7 +1343,7 @@ this.options.viewportScale = 1
 
 }
                 },
-                "title": "Block",
+                "title": "Block_UB",
                 "plugins": [
                   {
                     "type": "mousetrap",
@@ -1395,7 +1395,7 @@ this.options.viewport = [800, 600]
 this.options.viewportScale = 1 
 }
                 },
-                "title": "Displaced Block",
+                "title": "Displaced Block_UB",
                 "timeout": "1000",
                 "plugins": [
                   {
@@ -1609,7 +1609,7 @@ this.options.viewportScale = 1
 
 }
                 },
-                "title": "Block",
+                "title": "Block_B",
                 "plugins": [
                   {
                     "type": "mousetrap",
@@ -1673,7 +1673,7 @@ this.options.viewport = [800, 600]
 this.options.viewportScale = 1 
 }
                 },
-                "title": "Displaced Block",
+                "title": "Displaced Block_B",
                 "timeout": "1000",
                 "plugins": [
                   {
