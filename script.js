@@ -1009,7 +1009,7 @@ this.options.viewportScale = 1
                     "left": 0,
                     "top": 0,
                     "angle": 0,
-                    "width": 151,
+                    "width": 150,
                     "height": 76,
                     "stroke": null,
                     "strokeWidth": 1,
@@ -1021,7 +1021,7 @@ this.options.viewportScale = 1
                     "left": "0",
                     "top": 0,
                     "angle": 0,
-                    "width": "151",
+                    "width": "150",
                     "height": "76",
                     "stroke": null,
                     "strokeWidth": 1,
@@ -1059,27 +1059,27 @@ this.options.viewportScale = 1
                 "type": "lab.canvas.Screen",
                 "content": [
                   {
-                    "type": "rect",
-                    "left": "${parameters.Pos}",
-                    "top": 0,
-                    "angle": 0,
-                    "width": 151,
-                    "height": 76,
-                    "stroke": null,
-                    "strokeWidth": 1,
-                    "fill": "#aaaaaa"
-                  },
-                  {
                     "type": "aoi",
                     "left": "${parameters.Pos}",
                     "top": 0,
                     "angle": 0,
-                    "width": 151,
+                    "width": "150",
                     "height": "76",
                     "stroke": null,
                     "strokeWidth": 1,
                     "fill": "rgba(0, 0, 0, 0.2)",
                     "label": "Block_D"
+                  },
+                  {
+                    "type": "rect",
+                    "left": "${parameters.Pos}",
+                    "top": 0,
+                    "angle": 0,
+                    "width": "150",
+                    "height": 76,
+                    "stroke": null,
+                    "strokeWidth": 1,
+                    "fill": "#aaaaaa"
                   }
                 ],
                 "viewport": [
@@ -1302,27 +1302,27 @@ this.options.viewportScale = 1
                     "label": "Block"
                   },
                   {
-                    "type": "rect",
-                    "left": "0",
-                    "top": 0,
-                    "angle": 0,
-                    "width": "151",
-                    "height": "76",
-                    "stroke": null,
-                    "strokeWidth": 1,
-                    "fill": "#aaaaaa"
-                  },
-                  {
                     "type": "aoi",
                     "left": "0",
                     "top": 0,
                     "angle": 0,
-                    "width": 151,
+                    "width": "150",
                     "height": 76,
                     "stroke": null,
                     "strokeWidth": 1,
                     "fill": "rgba(0, 0, 0, 0.2)",
                     "label": "Block"
+                  },
+                  {
+                    "type": "rect",
+                    "left": "0",
+                    "top": 0,
+                    "angle": 0,
+                    "width": "150",
+                    "height": "76",
+                    "stroke": null,
+                    "strokeWidth": 1,
+                    "fill": "#aaaaaa"
                   }
                 ],
                 "viewport": [
@@ -1360,7 +1360,7 @@ this.options.viewportScale = 1
                     "left": "${parameters.Pos}",
                     "top": "0",
                     "angle": 0,
-                    "width": "151",
+                    "width": "150",
                     "height": "76",
                     "stroke": null,
                     "strokeWidth": 1,
@@ -1371,7 +1371,7 @@ this.options.viewportScale = 1
                     "left": "${parameters.Pos}",
                     "top": 0,
                     "angle": 0,
-                    "width": 151,
+                    "width": "150",
                     "height": 76,
                     "stroke": null,
                     "strokeWidth": 1,
@@ -1572,7 +1572,7 @@ this.options.viewportScale = 1
                     "left": "0",
                     "top": 0,
                     "angle": 0,
-                    "width": "151",
+                    "width": "150",
                     "height": "76",
                     "stroke": null,
                     "strokeWidth": 0,
@@ -1583,7 +1583,7 @@ this.options.viewportScale = 1
                     "left": 0,
                     "top": 0,
                     "angle": 0,
-                    "width": 151,
+                    "width": "150",
                     "height": 76,
                     "stroke": null,
                     "strokeWidth": 1,
@@ -1634,27 +1634,27 @@ this.options.viewportScale = 1
                     "label": "Block_D"
                   },
                   {
-                    "type": "rect",
-                    "left": "${parameters.Pos}",
-                    "top": 0,
-                    "angle": 0,
-                    "width": 151,
-                    "height": 76,
-                    "stroke": null,
-                    "strokeWidth": 1,
-                    "fill": "#aaaaaa"
-                  },
-                  {
                     "type": "aoi",
                     "left": "${parameters.Pos}",
                     "top": 0,
                     "angle": 0,
-                    "width": 151,
+                    "width": "150",
                     "height": 76,
                     "stroke": null,
                     "strokeWidth": 1,
                     "fill": "rgba(0, 0, 0, 0.2)",
                     "label": "Block_D"
+                  },
+                  {
+                    "type": "rect",
+                    "left": "${parameters.Pos}",
+                    "top": 0,
+                    "angle": 0,
+                    "width": "150",
+                    "height": 76,
+                    "stroke": null,
+                    "strokeWidth": 1,
+                    "fill": "#aaaaaa"
                   }
                 ],
                 "viewport": [
@@ -1768,7 +1768,7 @@ this.end()
             {
               "required": true,
               "type": "text",
-              "content": "\nRyan Langridge\nDepartment of Psychology \nUniversity of Manitoba\nlangrirw@myumanitoba.ca"
+              "content": "Ryan Langridge (langrirw@myumanitoba.ca)\u003Cbr\u003E\n\nDepartment of Psychology\u003Cbr\u003E\nUniversity of Manitoba\u003Cbr\u003E\n"
             }
           ],
           "scrollTop": true,
