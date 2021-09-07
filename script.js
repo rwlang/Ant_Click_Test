@@ -92,7 +92,7 @@ document.body.style.backgroundColor = 'white'
               "required": true,
               "type": "text",
               "title": "Description",
-              "content": "This study will last approximately 30 minutes. During the experiment, you will click on a start button to begin each trial. An image will then briefly appear in the center of the screen. Then, a grey rectangle will appear in the center of the screen. You will click on the rectangle. The rectangle will then jump to either to the left or right. When the rectangle is in its new location, you will click on it quickly but naturally before it disappears. Prior to this task, you will be asked to fill out a brief questionnaire involving questions about your age, sex, handedness, vision, and the device you are currently using to complete the experiment."
+              "content": "This study will last approximately 30 minutes. During the experiment, you will click on a start button to begin each trial. An image will then briefly appear in the center of the screen. Then, a grey rectangle will appear in the center of the screen. You will click on the rectangle. The rectangle will then jump to either to the left or right. When the rectangle is in its new location, you will click on it quickly but naturally before it disappears. Prior to this task, you will be asked to fill out a brief questionnaire involving questions about your age, sex, handedness, vision, and the device you are currently using to complete the experiment. At the end of the experiment, you will be asked a question about the task."
             }
           ],
           "scrollTop": true,
@@ -208,7 +208,7 @@ document.body.style.backgroundColor = 'white'
           ],
           "scrollTop": true,
           "submitButtonText": "Continue →",
-          "submitButtonPosition": "hidden",
+          "submitButtonPosition": "right",
           "files": {},
           "responses": {
             "": ""
@@ -788,7 +788,7 @@ this.options.viewportScale = 1
             {
               "required": true,
               "type": "text",
-              "content": "A grey rectangle will appear in the center, and you will click on it. \n\nThe rectangle will then jump to either to the left or right. When the rectangle is in its new location, click on it quickly but naturally before it disappears. ",
+              "content": "A grey rectangle will appear in the center, and you will click on it. \n\nThe rectangle will then jump either to the left or right. When the rectangle is in its new location, click on it quickly but naturally before it disappears. ",
               "title": "Trial Beginning and Clicking"
             },
             {
