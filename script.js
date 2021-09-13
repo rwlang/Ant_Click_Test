@@ -202,13 +202,59 @@ document.body.style.backgroundColor = 'white'
           "items": [
             {
               "type": "text",
-              "title": "Debriefing ",
-              "content": "In this study we were interested in where on the target object you clicked when it moved to the left or right of the screen, and the trajectory of your mouse movements. Through the examination and analysis of these mouse movements, we also sought to infer where you were looking when you made those mouse movements. Despite the co-occurrence of both vision and visuomotor processes, vision and motor functioning are typically studied independently, so their critical interactions are poorly understood. What is currently lacking in this area is a clear understanding of where people are looking while clicking on targets of varying complexity. Specifically, this study sought to expand current understandings of visual and visuomotor interactions by recording mouse movements and inferring the location of gaze made to visually presented targets. If you have any questions later on, please feel free to contact me – my contact information is listed below, or, you can contact the Human Ethics Coordinator at humanethics@umanitoba.ca. \n\nPlease press \"Esc\" to exit the experiment. \n\nRyan Langridge          \nDepartment of Psychology \nUniversity of Manitoba\nlangrirw@myumanitoba.ca\n\nThank you again for participating.\n\nPlease press \"Esc\" to exit the experiment. \n\n\n"
+              "title": "You have chosen not to participate in the experiment",
+              "content": "Please click the \"Continue to Debriefing Form\" Button below before exiting."
+            },
+            {
+              "required": true,
+              "type": "html",
+              "content": "\u003C\u002Fi\u003E\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E\r\n\r\n\u003Cbutton id=\"Submit\"\u003EContinue to Debriefing Form\u003C\u002Fbutton\u003E",
+              "name": ""
             }
           ],
           "scrollTop": true,
           "submitButtonText": "Continue →",
-          "submitButtonPosition": "right",
+          "submitButtonPosition": "hidden",
+          "files": {},
+          "responses": {
+            "": ""
+          },
+          "parameters": {},
+          "messageHandlers": {
+            "before:prepare": function anonymous(
+) {
+/* Get the documentElement (<html>) to display the page in fullscreen */
+var elem = document.documentElement;
+
+/* Download data to firebase */
+this.options.events['click button#Submit'] = function sendToFirebase() {
+    const rng = new lab.util.Random();
+  
+  firebase.database().ref(rng.uuid4()).set({
+    data: this.options.datastore.exportJson()
+    });
+
+/* Continue to next screen */
+this.end()
+}
+}
+          },
+          "title": "Page",
+          "tardy": true,
+          "skip": "${this.state['Participant_Consent'] == '1'}"
+        },
+        {
+          "type": "lab.html.Page",
+          "items": [
+            {
+              "type": "text",
+              "title": "Debriefing ",
+              "content": "In this study we were interested in where on the target object you clicked when it moved to the left or right of the screen, and the trajectory of your mouse movements. Through the examination and analysis of these mouse movements, we also sought to infer where you were looking when you made those mouse movements. Despite the co-occurrence of both vision and visuomotor processes, vision and motor functioning are typically studied independently, so their critical interactions are poorly understood. What is currently lacking in this area is a clear understanding of where people are looking while clicking on targets of varying complexity. Specifically, this study sought to expand current understandings of visual and visuomotor interactions by recording mouse movements and inferring the location of gaze made to visually presented targets. If you have any questions later on, please feel free to contact me – my contact information is listed below, or, you can contact the Human Ethics Coordinator at humanethics@umanitoba.ca.  \u003Cbr\u002F\u003E\u003Cbr\u002F\u003E\n\nRyan Langridge          \u003Cbr\u002F\u003E\nDepartment of Psychology \u003Cbr\u002F\u003E\nUniversity of Manitoba \u003Cbr\u002F\u003E\nlangrirw@myumanitoba.ca\u003Cbr\u002F\u003E\u003Cbr\u002F\u003E\n\nPlease press \"Esc\" to exit the experiment. \n\n\n"
+            }
+          ],
+          "scrollTop": true,
+          "submitButtonText": "Continue →",
+          "submitButtonPosition": "hidden",
           "files": {},
           "responses": {
             "": ""
@@ -1099,7 +1145,7 @@ this.options.viewportScale = 1
 }
                 },
                 "title": "Displaced Block_P",
-                "timeout": "1000",
+                "timeout": "1250",
                 "plugins": [
                   {
                     "type": "mousetrap",
@@ -1396,7 +1442,7 @@ this.options.viewportScale = 1
 }
                 },
                 "title": "Displaced Block_UB",
-                "timeout": "1000",
+                "timeout": "1250",
                 "plugins": [
                   {
                     "type": "mousetrap",
@@ -1674,7 +1720,7 @@ this.options.viewportScale = 1
 }
                 },
                 "title": "Displaced Block_B",
-                "timeout": "1000",
+                "timeout": "1250",
                 "plugins": [
                   {
                     "type": "mousetrap",
@@ -1763,12 +1809,12 @@ this.end()
             {
               "type": "text",
               "title": "Debriefing Form",
-              "content": "Thank you for participating in this study.  \n\nIn this study we were interested in where on the target object you clicked when it moved to the left or right and the trajectory of your mouse movements. Through the examination and analysis of these mouse movements, we also sought to infer where you were looking when you made those mouse movements. Despite the co-occurrence of both vision and visuomotor processes, vision and motor functioning are typically studied independently, so their critical interactions are poorly understood. What is currently lacking in this area is a clear understanding of where people are looking while clicking on targets of varying complexity. Specifically, this study sought to expand current understandings of visual and visuomotor interactions by recording mouse movements and inferring the location of gaze made to visually presented targets. If you have any questions later on, please feel free to contact me – my contact information is listed below. Thank you again for participating.\n\nPlease press \"Esc\" to exit the experiment. \n\n"
+              "content": "Thank you for participating in this study.  \u003Cbr\u002F\u003E\u003Cbr\u002F\u003E\n\nIn this study we were interested in where on the target object you clicked when it moved to the left or right and the trajectory of your mouse movements. Through the examination and analysis of these mouse movements, we also sought to infer where you were looking when you made those mouse movements. Despite the co-occurrence of both vision and visuomotor processes, vision and motor functioning are typically studied independently, so their critical interactions are poorly understood. What is currently lacking in this area is a clear understanding of where people are looking while clicking on targets of varying complexity. Specifically, this study sought to expand current understandings of visual and visuomotor interactions by recording mouse movements and inferring the location of gaze made to visually presented targets. If you have any questions later on, please feel free to contact me – my contact information is listed below. Thank you again for participating. \u003Cbr\u002F\u003E\u003Cbr\u002F\u003E\n\nPlease press \"Esc\" to exit the experiment. \n\n"
             },
             {
               "required": true,
               "type": "text",
-              "content": "Ryan Langridge (langrirw@myumanitoba.ca)\u003Cbr\u003E\n\nDepartment of Psychology\u003Cbr\u003E\nUniversity of Manitoba\u003Cbr\u003E\n"
+              "content": "Ryan Langridge (langrirw@myumanitoba.ca)\u003Cbr\u003E\nDepartment of Psychology\u003Cbr\u003E\nUniversity of Manitoba\u003Cbr\u003E\n"
             }
           ],
           "scrollTop": true,
