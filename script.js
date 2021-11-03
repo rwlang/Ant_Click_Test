@@ -1051,6 +1051,17 @@ this.options.viewportScale = 1
                     "label": ""
                   },
                   {
+                    "type": "rect",
+                    "left": "0",
+                    "top": 0,
+                    "angle": 0,
+                    "width": "150",
+                    "height": "76",
+                    "stroke": null,
+                    "strokeWidth": 1,
+                    "fill": "#aaaaaa"
+                  },
+                  {
                     "type": "aoi",
                     "left": 0,
                     "top": 0,
@@ -1061,17 +1072,6 @@ this.options.viewportScale = 1
                     "strokeWidth": 1,
                     "fill": "rgba(0, 0, 0, 0.2)",
                     "label": "Block"
-                  },
-                  {
-                    "type": "rect",
-                    "left": "0",
-                    "top": 0,
-                    "angle": 0,
-                    "width": "150",
-                    "height": "76",
-                    "stroke": null,
-                    "strokeWidth": 1,
-                    "fill": "#aaaaaa"
                   }
                 ],
                 "viewport": [
@@ -1188,23 +1188,23 @@ this.options.viewportScale = 1
           "type": "lab.flow.Loop",
           "templateParameters": [
             {
+              "Pos": "-300",
+              "": ""
+            },
+            {
+              "Pos": "-300",
+              "": ""
+            },
+            {
+              "Pos": "-300",
+              "": ""
+            },
+            {
+              "Pos": "-300",
+              "": ""
+            },
+            {
               "Pos": "-150",
-              "": ""
-            },
-            {
-              "Pos": "-300",
-              "": ""
-            },
-            {
-              "Pos": "-300",
-              "": ""
-            },
-            {
-              "Pos": "-300",
-              "": ""
-            },
-            {
-              "Pos": "-300",
               "": ""
             },
             {
@@ -1230,7 +1230,7 @@ this.options.viewportScale = 1
           ],
           "sample": {
             "mode": "draw-shuffle",
-            "n": "30"
+            "n": "40"
           },
           "files": {},
           "responses": {
@@ -1482,7 +1482,27 @@ this.options.viewportScale = 1
               "": ""
             },
             {
-              "Pos": "-150",
+              "Pos": "-300",
+              "": ""
+            },
+            {
+              "Pos": "-300",
+              "": ""
+            },
+            {
+              "Pos": "-300",
+              "": ""
+            },
+            {
+              "Pos": "-300",
+              "": ""
+            },
+            {
+              "Pos": "-300",
+              "": ""
+            },
+            {
+              "Pos": "-300",
               "": ""
             },
             {
@@ -1491,24 +1511,36 @@ this.options.viewportScale = 1
             },
             {
               "Pos": "-150",
+              "": ""
+            },
+            {
+              "Pos": "-150",
+              "": ""
+            },
+            {
+              "Pos": "300",
+              "": ""
+            },
+            {
+              "Pos": "300",
+              "": ""
+            },
+            {
+              "Pos": "300",
+              "": ""
+            },
+            {
+              "Pos": "300",
               "": ""
             },
             {
               "Pos": "150",
               "": ""
-            },
-            {
-              "Pos": "300",
-              "": ""
-            },
-            {
-              "Pos": "300",
-              "": ""
             }
           ],
           "sample": {
             "mode": "draw-shuffle",
-            "n": "96"
+            "n": "80"
           },
           "files": {},
           "responses": {
