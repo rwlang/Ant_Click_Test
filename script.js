@@ -1229,7 +1229,7 @@ this.options.viewportScale = 1
             }
           ],
           "sample": {
-            "mode": "draw-shuffle",
+            "mode": "draw",
             "n": "40"
           },
           "files": {},
@@ -1539,7 +1539,7 @@ this.options.viewportScale = 1
             }
           ],
           "sample": {
-            "mode": "draw-shuffle",
+            "mode": "draw",
             "n": "80"
           },
           "files": {},
