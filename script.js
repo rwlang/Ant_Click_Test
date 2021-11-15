@@ -568,10 +568,12 @@ this.options.events['click button#fullscreen'] = function openFullscreen() {
 /* Continue to next screen */
 this.end()
 }
+
+
 }
           },
           "title": "Full Screen",
-          "content": "\u003Cbutton id=\"fullscreen\"\u003EPress to enter full screen\u003C\u002Fbutton\u003E"
+          "content": "\u003Cb\u003EPlease enter full screen using the button below, and do not exit full screen until finished the experiment.\u003Cbr\u003E\u003Cbr\u003E\r\n\r\n\u003Cbutton id=\"fullscreen\"\u003EPress to enter full screen\u003C\u002Fbutton\u003E\r\n\r\n"
         },
         {
           "type": "lab.html.Page",
